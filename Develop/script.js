@@ -11,7 +11,18 @@ $(function () {
     localStorage.setItem(id, description);
   });
 
-  
+  var currentHour = dayjs().hour();
+$(".time-block").each(function() {
+  var id = $(this).attr("id");
+  var hour = parseInt(id.split("-")[1]);
+  if (hour < currentHour) {
+    $(this).addClass("past").removeClass("present future");
+  } else if (hour === currentHour) {
+    $(this).addClass("present").removeClass("past future");
+  } else {
+    $(this).addClass("future").removeClass("past present");
+  }
+});
 // Added in local storage function to save info
 
   // TODO: Add a listener for click events on the save button. This code should
