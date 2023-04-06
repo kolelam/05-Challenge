@@ -23,6 +23,12 @@ $(".time-block").each(function() {
     $(this).addClass("future").removeClass("past present");
   }
 });
+
+$(".time-block").each(function() {
+  var id = $(this).attr("id");
+  var description = localStorage.getItem(id);
+  $(this).children(".description").val(description);
+});
 // Added in local storage function to save info
 
   // TODO: Add a listener for click events on the save button. This code should
