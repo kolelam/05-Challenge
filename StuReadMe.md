@@ -34,4 +34,4 @@ THEN the saved events persist
 
 
 ## Screenshot
-
+![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/WDS.jpg)
