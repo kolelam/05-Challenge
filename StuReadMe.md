@@ -1,9 +1,9 @@
 # Challenge 05
 
 ## Challenge 05: Workday Scheduler
-- Create code from scratch
-- Build a functional website showcasing your work
-- Learn how to format images from CSS class
+- Create JS code from scratch
+- Build a functional calendar using local storage
+- Showcase knowledge on JS
 - There's multiple methods to build your code, use what easily seperates the contents
 
 ## User Story
@@ -33,4 +33,5 @@ THEN the saved events persist
 ```
 
 
-## Lessons Learned
+## Screenshot
+
